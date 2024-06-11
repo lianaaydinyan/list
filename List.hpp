@@ -16,7 +16,13 @@ public:
 	void insert(nodik<list>* node);
 	void add_node(nodik<list>* node);
 	void push_front(list val);
-	void buble_sort(nodik<list>* node);
+	void buble_sort(nodik<list>* node); // wO (n)^2 bO(n)
+	void selection_sort(nodik<list>* node); // O(n)^2
+	
+	void merge_sort(nodik<list>* node);
+	void quik_sort(nodik<list>* node); 
+	// .. sertion get sorting
+	// array-i merge n log n
 	list pop_front();
 };
 

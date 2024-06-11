@@ -38,6 +38,21 @@ void My_list<list>::buble_sort(nodik<list>* node)
 
 
 
+template <typename list>
+void My_list<list>::selection_sort(nodik<list>* node)
+{
+	if (node == nullptr)
+		return ;
+
+	int min;
+	nodik<list>* head = node;
+	while (head->next != nullptr)
+	{
+		min = node->data;
+		while ()
+	}
+}
+
 
 template <typename list>
 void My_list<list>::insert(nodik<list>* node)
